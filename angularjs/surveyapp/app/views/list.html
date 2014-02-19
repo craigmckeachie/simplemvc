@@ -1,0 +1,17 @@
+<h2>Surveys</h2>
+<span ng-show="surveys.length==0">No surveys have been created.</span>
+
+<a href="#/new" class="btn btn-primary pull-right"><i class="glyphicon glyphicon-plus" ></i>Add Survey</a>
+<ul>
+	
+	<li ng-repeat="survey in surveys">
+		{{survey.name}}
+		
+		<span>
+		<a href="#/edit?surveyName={{survey.name}}">edit</a>		
+		<button type="button" class="btn btn-mini" ng-click="remove($index)" ><span class="glyphicon glyphicon-minus-sign"></span></button>
+		</span>
+	</li>
+	
+	
+</ul>
