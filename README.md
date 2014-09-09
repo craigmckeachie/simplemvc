@@ -1,4 +1,4 @@
 simplemvc
 =========
 
-Simple basic crud example of JavaScript MVC frameworks
+Simple basic crud example of JavaScript MVC frameworks.
